@@ -1,5 +1,9 @@
 # HeartAttackPrediction
 
+![ui_ss/png1.png](ui_ss/png1.png)
+
+![ui_ss/png2.png](ui_ss/png2.png)
+
 This application is built using sklearn machine learning libraries and PyQt5 for the graphical user interface. It uses the "Logistic Regression" algorithm to classify the input data with 85% accuracy. The [Heart Disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci) dataset in the "Kaggle Data" section was used.
 
 # UTILIZATION
