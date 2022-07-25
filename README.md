@@ -1,33 +1,32 @@
-HeartAttackPrediction
+# HeartAttackPrediction
 
-Bu uygulama, sklearn makine öğrenimi kitaplıkları ve grafik kullanıcı arabirimi için pyQt5 kullanılarak yapılmıştır. "Logistik Regression" algoritması kullanılıp girdi verilerini %85 doğrulukla sınıflandırır. "Kaggle Data" bölümünden "Heart Disease UCI" veri seti kullanılmıştır.( https://www.kaggle.com/ronitf/heart-disease-uci )
+This application is built using sklearn machine learning libraries and PyQt5 for the graphical user interface. It uses the "Logistic Regression" algorithm to classify the input data with 85% accuracy. The [Heart Disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci) dataset in the "Kaggle Data" section was used.
 
-KULLANIM 
+# UTILIZATION
 
---> Öncelikle aşağıdaki komutla tüm kütüphaneleri kurun.
+```bash
+# Install libraries
+$ pip3 install -r libraries.txt
 
-pip3 install -r libraries.txt
+# Get Build
+$ py .\src\setup.py build
 
---> Şimdi PC'nizdeki uygulamayı şu şekilde eğitin:
+# Run it 
+$ .\build\exe.win-amd64-3.10\heart_attack_prediction.exe
+```
 
-python3 prediction_file.py
+# DATASET ATTRIBUTE INFORMATION
 
---> Son olarak uygulamayı çalıştırın:
-
-python3 test.py
-
-VERİ SETİ ÖZNİTELİK BİLGİLERİ
-
-1.yaş
-2.cinsiyet
-3.göğüs ağrısı tipi (4 değer)
-4.istirahat kan basıncı
-5.mg / dl cinsinden serum kolestoral
-6.açlık kan şekeri> 120 mg / dl
-7.istirahat elektrokardiyografik sonuçları (0,1,2 değerleri)
-8.ulaşılan maksimum kalp atış hızı
-9.egzersize bağlı anjina
-10.oldpeak = dinlenmeye göre egzersizin neden olduğu ST depresyonu
-11.pik egzersiz ST segmentinin eğimi
-12.florosopi ile renklendirilen ana damarların sayısı (0-3)
-13.tal: 3 = normal; 6 = sabit kusur; 7 = tersine çevrilebilir kusur
+- yaş
+- cinsiyet
+- göğüs ağrısı tipi (4 değer)
+- istirahat kan basıncı
+- mg / dl cinsinden serum kolestoral
+- açlık kan şekeri> 120 mg / dl
+- istirahat elektrokardiyografik sonuçları (0,1,2 değerleri)
+- ulaşılan maksimum kalp atış hızı
+- egzersize bağlı anjina
+- oldpeak = dinlenmeye göre egzersizin neden olduğu ST depresyonu
+- pik egzersiz ST segmentinin eğimi
+- florosopi ile renklendirilen ana damarların sayısı (0-3)
+- tal: 3 = normal; 6 = sabit kusur; 7 = tersine çevrilebilir kusur
