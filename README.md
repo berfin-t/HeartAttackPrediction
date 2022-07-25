@@ -1,6 +1,7 @@
 # HeartAttackPrediction
 
-![ui_ss/png1.png](ui_ss/png1.png)
+<img src="ui_ss/png1.png"
+     width=40% />
 
 ![ui_ss/png2.png](ui_ss/png2.png)
 
