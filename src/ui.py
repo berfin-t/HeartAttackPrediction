@@ -162,7 +162,7 @@ class Hearth(QWidget):
         self.report_subhead.setAlignment(Qt.AlignCenter)
         self.report_subhead.setFont(QFont("Times",24, weight=QFont.Bold))
         self.v2_box.addWidget(self.report_subhead)
-        self.details = QLabel("This model uses xgb classifier.\nAccuracy of model: %85 ")
+        self.details = QLabel("This model uses Logistic Regression.\nAccuracy of model: %85 ")
         self.details.setFont(QFont("Arial",14, weight=QFont.Bold))
         self.details.setAlignment(Qt.AlignLeft)
         self.details.setWordWrap(True)
@@ -189,7 +189,7 @@ class Hearth(QWidget):
         self.l12.clear()
         self.report_subhead.setText("About")
         self.results.setText(" ")
-        self.details.setText("This model uses xgb classifier.\nAccuracy of model: %85")
+        self.details.setText("This model uses Logistic Regression.\nAccuracy of model: %85")
         
     def test_input(self) -> None:
         
