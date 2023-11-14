@@ -1,4 +1,4 @@
-# HeartAttackPrediction
+# Heart Attack Prediction
 
 <img src="ui_ss/png1.png"
      width=40% />
